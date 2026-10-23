@@ -1,0 +1,19 @@
+.inner-hero{position:relative;overflow:hidden;padding:clamp(76px,11vw,145px) 0;background-image:radial-gradient(circle at 80% 20%,rgba(201,154,8,.12),transparent 32%),linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);background-size:auto,68px 68px,68px 68px}
+.inner-hero-content{position:relative;z-index:1;max-width:850px}
+.inner-hero h1{font:600 clamp(40px,7vw,78px)/1.08 var(--font-display);letter-spacing:-.06em;max-width:900px;margin:0 0 22px}
+.inner-hero h1 em{font-style:normal;color:var(--gold)}
+.inner-hero-content>p:not(.eyebrow){max-width:700px;color:#b8b5ad;font-size:15px;line-height:1.9}
+.inner-hero-links{display:flex;align-items:center;flex-wrap:wrap;gap:22px;margin-top:28px}
+.inner-content .section-heading{margin-bottom:34px}.inner-content .section-heading h2{font-size:clamp(32px,4vw,48px)}
+.inner-card-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--line);border-left:1px solid var(--line)}
+.inner-card{padding:25px 22px;min-height:190px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .25s,transform .25s}
+.inner-card:hover{background:rgba(201,154,8,.06);transform:translateY(-2px)}
+.inner-card-index{font-size:10px;color:#9a7500;font-weight:800}
+.inner-card h3{font:700 17px/1.4 var(--font-display);margin:22px 0 9px;letter-spacing:-.025em}
+.inner-card p{font-size:12px;line-height:1.85;color:#6e6b63;margin:0}
+.inner-callout{margin-top:35px;border-left:3px solid var(--gold);background:#eeece4;padding:23px 25px}
+.inner-callout strong{font:700 18px var(--font-display)}.inner-callout p{font-size:13px;color:#6e6b63;margin-bottom:0}
+.inner-cta{margin-top:80px;padding:clamp(30px,5vw,55px);background:#eae7dd}
+.inner-cta h2{font-size:clamp(28px,4vw,42px)}.inner-cta p{font-size:13px;color:#6e6b63;margin:14px 0 24px}
+@media(max-width:800px){.inner-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.inner-hero-content>p:not(.eyebrow){font-size:14px}}
+@media(max-width:520px){.inner-card-grid{grid-template-columns:1fr}.inner-card{min-height:0;padding:22px}.inner-card h3{margin-top:15px}.inner-hero-links{align-items:stretch;flex-direction:column}.inner-hero-links .text-link{padding:6px 0}.inner-cta{margin-top:55px}}

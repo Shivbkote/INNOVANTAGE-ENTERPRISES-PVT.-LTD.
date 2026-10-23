@@ -1,0 +1,4 @@
+# Replace the sitemap URL with your production domain before launch.
+User-agent: *
+Allow: /
+# Sitemap: https://YOUR-DOMAIN-HERE/sitemap.xml
